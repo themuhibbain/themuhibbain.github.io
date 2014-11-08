@@ -1,1 +1,1 @@
-(function(){$(function(){return $(".lang .lg").click(function(){var e;return e=$(this).parents("article").hasClass("profile-en")?"profile-ms":"profile-en",$(".profile-wrapper").removeClass("profile-en profile-ms").addClass(e)})})}).call(this);
+(function(){$(function(){return $(".lang-btn-en").click(function(){return $(".profile-outer").attr("lang","en")}),$(".lang-btn-ms").click(function(){return $(".profile-outer").attr("lang","ms")})})}).call(this);
